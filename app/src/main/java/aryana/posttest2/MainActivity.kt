@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        // 1. Temukan RecyclerView di layout
+        // 1. Cari RecyclerView di layout
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view_stories)
 
 
@@ -69,10 +69,6 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-
-//=================================================
-// BAGIAN 2: MODEL DATA (BIASANYA DI FILE Story.kt)
-//=================================================
 data class Story(
     val title: String,
     val description: String,
@@ -81,9 +77,6 @@ data class Story(
 )
 
 
-//=================================================
-// BAGIAN 3: ADAPTER (BIASANYA DI FILE StoryAdapter.kt)
-//=================================================
 class StoryAdapter(private val storyList: List<Story>) : RecyclerView.Adapter<StoryAdapter.StoryViewHolder>() {
 
 
