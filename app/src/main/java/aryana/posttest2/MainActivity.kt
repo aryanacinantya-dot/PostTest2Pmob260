@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             Story(
                 "Keindahan Tersembunyi Gunung Bromo",
                 "Gunung Bromo di Jawa Timur menawarkan pemandangan matahari terbit yang megah...",
-                "Aryana 232",
+                "Aryana 260",
                 R.drawable.gunung
             )
         )
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             Story(
                 "Resep Nasi Goreng Spesial Keluarga",
                 "Nasi goreng adalah hidangan favorit sepanjang masa. Dengan resep ini, Anda bisa...",
-                "Aryana 232",
+                "Aryana 260",
                 R.drawable.nasigoreng
             )
         )
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             Story(
                 "Smartphone Terbaru Rilis dengan Kamera 200MP",
                 "Persaingan di pasar smartphone semakin sengit dengan diluncurkannya model terbaru...",
-                "Aryana 232",
+                "Aryana 260",
                 R.drawable.iphone
             )
         )

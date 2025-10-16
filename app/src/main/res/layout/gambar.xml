@@ -71,7 +71,8 @@
                 android:background="@drawable/tombol"
                 android:text="Suka"
                 android:textAllCaps="false"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                app:backgroundTint="@color/blue"/>
 
 
             <View
@@ -87,7 +88,8 @@
                 android:background="@drawable/tombol"
                 android:text="Bagikan"
                 android:textAllCaps="false"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                app:backgroundTint="@color/blue" />
         </LinearLayout>
 
 
